@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/dashbee">
+    <file alias="qmldir">C:/Users/jujur/Documents/dashbee/build/6.10.0-raspberrypi-armv8-Debug/dashbee/qmldir</file>
+  </qresource>
+</RCC>
+

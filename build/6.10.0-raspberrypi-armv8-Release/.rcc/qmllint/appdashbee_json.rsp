@@ -1,0 +1,12 @@
+--bare
+-I
+C:/Users/jujur/Documents/dashbee/build/6.10.0-raspberrypi-armv8-Release
+-I
+D:/Qt/6.10.0/Boot2Qt/raspberrypi-armv8/toolchain/sysroots/cortexa53-poky-linux/usr/lib/qml
+--resource
+C:/Users/jujur/Documents/dashbee/build/6.10.0-raspberrypi-armv8-Release/.qt/rcc/qmake_dashbee.qrc
+--resource
+C:/Users/jujur/Documents/dashbee/build/6.10.0-raspberrypi-armv8-Release/.qt/rcc/appdashbee_raw_qml_0.qrc
+C:/Users/jujur/Documents/dashbee/Main.qml
+--json
+C:/Users/jujur/Documents/dashbee/build/6.10.0-raspberrypi-armv8-Release/appdashbee_qmllint.json

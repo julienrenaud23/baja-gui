@@ -1,0 +1,17 @@
+# This file is managed by Qt Creator, do not edit!
+
+set("CMAKE_CXX_COMPILER_TARGET" "aarch64-poky-linux" CACHE "STRING" "" FORCE)
+set("CMAKE_SYSROOT" "D:/Qt/6.10.0/Boot2Qt/raspberrypi-armv8/toolchain/sysroots/cortexa53-poky-linux" CACHE "PATH" "" FORCE)
+set("CMAKE_COLOR_DIAGNOSTICS" "ON" CACHE "BOOL" "" FORCE)
+set("CMAKE_CXX_COMPILER" "D:/Qt/6.10.0/Boot2Qt/raspberrypi-armv8/toolchain/sysroots/x86_64-w64-mingw32/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++.exe" CACHE "STRING" "" FORCE)
+set("CMAKE_CXX_FLAGS_INIT" "-DQT_QML_DEBUG" CACHE "STRING" "" FORCE)
+set("CMAKE_BUILD_TYPE" "Debug" CACHE "STRING" "" FORCE)
+set("CMAKE_C_COMPILER_TARGET" "aarch64-poky-linux" CACHE "STRING" "" FORCE)
+set("CMAKE_PROJECT_INCLUDE_BEFORE" "C:/Users/jujur/Documents/dashbee/build/6.10.0-raspberrypi-armv8-Debug/.qtc/package-manager/auto-setup.cmake" CACHE "FILEPATH" "" FORCE)
+set("CMAKE_GENERATOR" "Ninja" CACHE "STRING" "" FORCE)
+set("QT_MAINTENANCE_TOOL" "D:/Qt/MaintenanceTool.exe" CACHE "FILEPATH" "" FORCE)
+set("CMAKE_PREFIX_PATH" "D:/Qt/6.10.0/Boot2Qt/raspberrypi-armv8/toolchain/sysroots/cortexa53-poky-linux/usr" CACHE "STRING" "" FORCE)
+set("CMAKE_TOOLCHAIN_FILE" "D:/Qt/6.10.0/Boot2Qt/raspberrypi-armv8/toolchain/sysroots/x86_64-w64-mingw32/usr/lib/cmake/Qt6/qt.toolchain.cmake" CACHE "FILEPATH" "" FORCE)
+set("CMAKE_C_COMPILER" "D:/Qt/6.10.0/Boot2Qt/raspberrypi-armv8/toolchain/sysroots/x86_64-w64-mingw32/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc.exe" CACHE "STRING" "" FORCE)
+set("CMAKE_MAKE_PROGRAM" "D:/Qt/6.10.0/Boot2Qt/raspberrypi-armv8/toolchain/sysroots/x86_64-w64-mingw32/usr/bin/ninja.exe" CACHE "FILEPATH" "" FORCE)
+set("QT_QMAKE_EXECUTABLE" "D:/Qt/6.10.0/Boot2Qt/raspberrypi-armv8/toolchain/sysroots/x86_64-w64-mingw32/usr/bin/qmake.exe" CACHE "STRING" "" FORCE)

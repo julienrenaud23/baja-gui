@@ -1,0 +1,205 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c030783377ef6e5a945c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dashbee",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-1c355faee6f17f54a253.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-da5d5db7bca1971aed87.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-6678cd608d8965ea9939.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-b60fc79990b5af212eea.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-da983af610ffdd8889df.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdashbee::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdashbee-Debug-9730a99bf07845597afa.json",
+					"name" : "appdashbee",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdashbee_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdashbee_autogen-Debug-e3197c4d9fc657076143.json",
+					"name" : "appdashbee_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdashbee_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdashbee_autogen_timestamp_deps-Debug-0732d3284802478bfeb7.json",
+					"name" : "appdashbee_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdashbee_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdashbee_copy_qml-Debug-f373d5732dabab2d5467.json",
+					"name" : "appdashbee_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdashbee_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdashbee_copy_res-Debug-14bf7aae5829b4f18c3c.json",
+					"name" : "appdashbee_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdashbee_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdashbee_qmlimportscan-Debug-eb2e37c031b8da95d08d.json",
+					"name" : "appdashbee_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdashbee_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdashbee_qmllint-Debug-eb3c6bb8753432925e29.json",
+					"name" : "appdashbee_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdashbee_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdashbee_qmllint_json-Debug-bede0fd5abd38556dd6d.json",
+					"name" : "appdashbee_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdashbee_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdashbee_qmllint_module-Debug-552a553fbc1882fb36f6.json",
+					"name" : "appdashbee_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appdashbee_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appdashbee_qmltyperegistration-Debug-7b31e835ca5f0478215f.json",
+					"name" : "appdashbee_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-a4b904b186792a294a17.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appdashbee_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appdashbee_aotstats_target-Debug-2ad3217c6280918f880d.json",
+					"name" : "module_appdashbee_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/jujur/Documents/dashbee/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/jujur/Documents/dashbee"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

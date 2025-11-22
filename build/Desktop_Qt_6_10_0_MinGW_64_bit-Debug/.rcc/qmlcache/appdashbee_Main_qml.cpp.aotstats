@@ -1,0 +1,167 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 12,
+                            "durationMicroseconds": 546,
+                            "functionName": "color",
+                            "line": 11,
+                            "message": "Cannot generate efficient code for script lookup"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 52,
+                            "functionName": "onHeightChanged",
+                            "line": 13,
+                            "message": "Cannot retrieve a non-object type by ID: windowSizeLabel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 21,
+                            "durationMicroseconds": 28,
+                            "functionName": "onWidthChanged",
+                            "line": 17,
+                            "message": "Cannot retrieve a non-object type by ID: windowSizeLabel"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 12,
+                            "durationMicroseconds": 104,
+                            "functionName": "y",
+                            "line": 22,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 28,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 100,
+                            "functionName": "implicitWidth",
+                            "line": 32,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 93,
+                            "functionName": "implicitHeight",
+                            "line": 33,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 159,
+                            "functionName": "height",
+                            "line": 42,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 66,
+                            "functionName": "width",
+                            "line": 43,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 53,
+                            "functionName": "y",
+                            "line": 44,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 89,
+                            "functionName": "color",
+                            "line": 45,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 59,
+                            "functionName": "width",
+                            "line": 52,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 29,
+                            "functionName": "y",
+                            "line": 54,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 64,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 0,
+                            "functionName": "x",
+                            "line": 67,
+                            "message": "Could not find property \"x\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 192,
+                            "functionName": "onTriggered",
+                            "line": 74,
+                            "message": "Cannot retrieve a non-object type by ID: clockLabel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 12,
+                            "durationMicroseconds": 0,
+                            "functionName": "x",
+                            "line": 91,
+                            "message": "Could not find property \"x\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 12,
+                            "durationMicroseconds": 0,
+                            "functionName": "y",
+                            "line": 92,
+                            "message": "Could not find property \"y\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 15,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 93,
+                            "message": "Could not find property \"text\"."
+                        }
+                    ],
+                    "filePath": "C:/Users/jujur/Documents/dashbee/Main.qml"
+                }
+            ],
+            "moduleId": "dashbee(appdashbee)"
+        }
+    ]
+}

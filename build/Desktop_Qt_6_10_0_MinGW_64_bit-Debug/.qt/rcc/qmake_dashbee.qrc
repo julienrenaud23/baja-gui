@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/dashbee">
+    <file alias="qmldir">C:/Users/jujur/Documents/dashbee/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/dashbee/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,11 @@
+--bare
+-I
+C:/Users/jujur/Documents/dashbee/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug
+-I
+D:/Qt/6.10.0/mingw_64/qml
+--resource
+C:/Users/jujur/Documents/dashbee/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/.qt/rcc/qmake_dashbee.qrc
+--resource
+C:/Users/jujur/Documents/dashbee/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/.qt/rcc/appdashbee_raw_qml_0.qrc
+C:/Users/jujur/Documents/dashbee/Main.qml
+C:/Users/jujur/Documents/dashbee/Constants.js

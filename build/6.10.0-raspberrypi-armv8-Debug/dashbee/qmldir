@@ -1,0 +1,6 @@
+module dashbee
+typeinfo appdashbee.qmltypes
+prefer :/qt/qml/dashbee/
+Main 254.0 Main.qml
+depends QtQuick
+
