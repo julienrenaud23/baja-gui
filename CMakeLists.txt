@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.16)
 project(dashbee VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+SET(CMAKE_PREFIX_PATH "D:\\Qt\\6.10.0\\mingw_64\\")
 
 find_package(Qt6 REQUIRED COMPONENTS Quick)
 

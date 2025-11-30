@@ -1,5 +1,6 @@
 .pragma library
 
-var graphColor = "#733635";
-var graphBg = "#d9d9d9";
-var mainBg = "#bababa";
+var graphColor = "#733635"; // geegee red
+var graphBg = "#d9d9d9"; // white
+var mainBg = "#bababa"; // gray
+const debug = true; // debugging state, set to false to remove debugging components (visible: Consts.debug)

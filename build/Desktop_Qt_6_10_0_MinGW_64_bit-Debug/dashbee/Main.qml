@@ -11,23 +11,32 @@ Window {
     color: Consts.mainBg
 
     onHeightChanged: {
-        windowSizeLabel.text = `${width}x${height}`
+        if (Consts.debug) {
+            windowSizeLabel.text = `${width}x${height}`
+        }
     }
 
     onWidthChanged: {
-        windowSizeLabel.text = `${width}x${height}`
+        if (Consts.debug) {
+            windowSizeLabel.text = `${width}x${height}`
+        }
     }
 
+    // layout that contains speedometer, fuel bar, rpm gauge and engine light
     RowLayout {
         y: parent.height * 0.20
         x: 10
+        id: gaugesLayout
         spacing: 30
+
         Label {
             text: "Fuel"
             font.pixelSize: 25
             color: Consts.graphColor
             horizontalAlignment: "AlignRight"
         }
+
+        // custom progress bar to be vertical and have ticks inside
         Item {
             implicitWidth: Window.width*0.015
             implicitHeight: Window.height*0.45
@@ -36,6 +45,8 @@ Window {
             property real from: 0
             property real to: 1
             property real value: 0.45
+
+            // loop to fill the bar
             Repeater {
                 model: 100
                 Rectangle {
@@ -45,6 +56,7 @@ Window {
                     color: index < (fuelBar.value*100) ? Consts.graphColor : Consts.graphBg
                 }
             }
+            // loop to add the ticks
             Repeater {
                 model: 9
                 Rectangle {
@@ -55,14 +67,24 @@ Window {
                 }
             }
         }
+        Item {
+            objectName: "speedometer"
+            id: speedometer
+            height: gaugesLayout.height
+
+            // sinusoidal function to make a circle progress bar
+
+        }
     }
+
+    // this controls and updates the time
     Item {
         Label {
             id: clockLabel
             objectName: "clockLabel"
             text: "00:00:00pm"
             color: Consts.graphColor
-            font.pixelSize: 24
+            font.pixelSize: 18
             y: 5
             x: Window.width - this.width - 5
         }
@@ -86,10 +108,27 @@ Window {
         }
     }
     Label {
+        id: odoLabel
+        objectName: "clockLabel"
+        property real value: 25
+        // function executes on label init
+        Component.onCompleted: {
+            // add 4 leading zeros
+            this.text = value.toString().padStart(4, '0')+"km";
+        }
+        color: Consts.graphColor
+        font.pixelSize: 18
+        y: 5
+        x: 5
+    }
+
+    // debugging purposes
+    Label {
         // widthXheight
         id: windowSizeLabel
-        x: Window.width - this.width - 5
-        y: Window.height - this.height
+        visible: Consts.debug
+        x: Window.width - width - 5
+        y: Window.height - height
         text: `${Window.width}x${Window.height}`
     }
 }
