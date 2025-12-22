@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 12,
-                            "durationMicroseconds": 679,
+                            "durationMicroseconds": 571,
                             "functionName": "color",
                             "line": 11,
                             "message": "Cannot generate efficient code for script lookup"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 95,
+                            "durationMicroseconds": 80,
                             "functionName": "onHeightChanged",
                             "line": 13,
                             "message": "Cannot retrieve a non-object type by ID: windowSizeLabel"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 61,
+                            "durationMicroseconds": 56,
                             "functionName": "onWidthChanged",
                             "line": 19,
                             "message": "Cannot retrieve a non-object type by ID: windowSizeLabel"
@@ -32,97 +32,193 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 123,
+                            "durationMicroseconds": 128,
                             "functionName": "y",
                             "line": 27,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 12,
+                            "durationMicroseconds": 131,
+                            "functionName": "x",
+                            "line": 28,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 36,
+                            "functionName": "center",
+                            "line": 29,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 104,
+                            "functionName": "implicitWidth",
+                            "line": 44,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 76,
+                            "functionName": "implicitHeight",
+                            "line": 45,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 20,
                             "durationMicroseconds": 0,
+                            "functionName": "y",
+                            "line": 37,
+                            "message": "Could not find property \"y\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "x",
+                            "line": 38,
+                            "message": "Could not find property \"x\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 35,
+                            "line": 40,
                             "message": "Could not find property \"color\"."
                         },
                         {
                             "codegenResult": 0,
-                            "column": 28,
-                            "durationMicroseconds": 101,
-                            "functionName": "implicitWidth",
+                            "column": 35,
+                            "durationMicroseconds": 62,
+                            "functionName": "alignment",
                             "line": 41,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 86,
-                            "functionName": "implicitHeight",
-                            "line": 42,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 29,
-                            "durationMicroseconds": 88,
+                            "durationMicroseconds": 107,
                             "functionName": "height",
-                            "line": 53,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 28,
-                            "durationMicroseconds": 62,
-                            "functionName": "width",
-                            "line": 54,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 24,
-                            "durationMicroseconds": 42,
-                            "functionName": "y",
-                            "line": 55,
-                            "message": "Cannot access value for name index"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 28,
-                            "durationMicroseconds": 67,
-                            "functionName": "color",
                             "line": 56,
-                            "message": "Cannot access value for name index"
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 66,
+                            "durationMicroseconds": 55,
                             "functionName": "width",
-                            "line": 64,
+                            "line": 57,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 24,
-                            "durationMicroseconds": 31,
+                            "durationMicroseconds": 50,
                             "functionName": "y",
-                            "line": 66,
+                            "line": 58,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 61,
+                            "functionName": "color",
+                            "line": 59,
                             "message": "Cannot access value for name index"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 21,
-                            "durationMicroseconds": 67,
-                            "functionName": "height",
-                            "line": 73,
+                            "column": 28,
+                            "durationMicroseconds": 61,
+                            "functionName": "width",
+                            "line": 67,
                             "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 29,
+                            "functionName": "y",
+                            "line": 69,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 24,
+                            "durationMicroseconds": 108,
+                            "functionName": "width",
+                            "line": 79,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 25,
+                            "durationMicroseconds": 72,
+                            "functionName": "height",
+                            "line": 80,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 86,
+                            "functionName": "y",
+                            "line": 81,
+                            "message": "Cannot retrieve a non-object type by ID: speedLabel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 29,
+                            "functionName": "x",
+                            "line": 82,
+                            "message": "Cannot retrieve a non-object type by ID: speedLabel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 78,
+                            "functionName": "color",
+                            "line": 83,
+                            "message": "Cannot generate efficient code for script lookup"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "y",
+                            "line": 90,
+                            "message": "Could not find property \"y\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 91,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 93,
+                            "message": "Could not find property \"text\"."
                         },
                         {
                             "codegenResult": 2,
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 86,
+                            "line": 112,
                             "message": "Could not find property \"color\"."
                         },
                         {
@@ -130,15 +226,15 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 89,
+                            "line": 115,
                             "message": "Could not find property \"x\"."
                         },
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 222,
+                            "durationMicroseconds": 196,
                             "functionName": "onTriggered",
-                            "line": 96,
+                            "line": 122,
                             "message": "Cannot retrieve a non-object type by ID: clockLabel"
                         },
                         {
@@ -146,15 +242,15 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 119,
+                            "line": 146,
                             "message": "Could not find property \"color\"."
                         },
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 26,
+                            "durationMicroseconds": 24,
                             "functionName": "onCompleted",
-                            "line": 115,
+                            "line": 142,
                             "message": "Type  does not have a property text for writing"
                         },
                         {
@@ -162,7 +258,7 @@
                             "column": 18,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 129,
+                            "line": 156,
                             "message": "Could not find property \"visible\"."
                         },
                         {
@@ -170,7 +266,7 @@
                             "column": 12,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 130,
+                            "line": 157,
                             "message": "Could not find property \"x\"."
                         },
                         {
@@ -178,7 +274,7 @@
                             "column": 12,
                             "durationMicroseconds": 0,
                             "functionName": "y",
-                            "line": 131,
+                            "line": 158,
                             "message": "Could not find property \"y\"."
                         },
                         {
@@ -186,7 +282,7 @@
                             "column": 15,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 132,
+                            "line": 159,
                             "message": "Could not find property \"text\"."
                         }
                     ],

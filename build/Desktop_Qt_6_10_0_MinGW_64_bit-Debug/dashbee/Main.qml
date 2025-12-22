@@ -24,20 +24,23 @@ Window {
 
     // layout that contains speedometer, fuel bar, rpm gauge and engine light
     RowLayout {
-        y: parent.height * 0.20
-        x: 10
+        y: Window.height * 0.20
+        x: Window.width/2 - width
+        property real center: y
         id: gaugesLayout
-        spacing: 30
-
-        Label {
-            text: "Fuel"
-            font.pixelSize: 25
-            color: Consts.graphColor
-            horizontalAlignment: "AlignRight"
-        }
+        spacing: 60
 
         // custom progress bar to be vertical and have ticks inside
         Item {
+            Label {
+                text: "Fuel"
+                y: gaugesLayout.center
+                x: parent.x - width - 10
+                font.pixelSize: 25
+                color: Consts.graphColor
+                Layout.alignment: Qt.AlignHCenter
+            }
+
             implicitWidth: Window.width*0.015
             implicitHeight: Window.height*0.45
             objectName: "fuelBar"
@@ -70,10 +73,33 @@ Window {
         Item {
             objectName: "speedometer"
             id: speedometer
-            height: gaugesLayout.height
+            property real speed: 0
+            property real offset: 10 // for some reason the items dont align super well so i needed an offset
+            Rectangle {
+                width: Window.width * 0.3
+                height: Window.height * 0.5
+                y: -height/2 + speedLabel.height/2 - parent.offset
+                x: -width/2 + speedLabel.width/2
+                color: Consts.mainBg
+                border.width: 1
+                border.color: "black"
+            }
 
-            // sinusoidal function to make a circle progress bar
+            Label {
+                id: speedLabel
+                y: -parent.offset
+                color: Consts.graphColor
+                font.pixelSize: 25
+                text: parent.speed + " km/h"
+            }
 
+        }
+
+        Item {
+            id: minimap
+            objectName: "minimap"
+            // we will use a qpainter for the map, translate gps coordinates in the map's file to pixel coordinates on the qpainter
+            // then, we will draw a cirlce of the current gps position coordinates on the map
         }
     }
 
@@ -109,8 +135,9 @@ Window {
     }
     Label {
         id: odoLabel
-        objectName: "clockLabel"
-        property real value: 25
+        objectName: "odoLabel"
+        // value should be changed from c++
+        property real value: 0 // just a placeholder value for now
         // function executes on label init
         Component.onCompleted: {
             // add 4 leading zeros
