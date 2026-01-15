@@ -1,7 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/dashbee/">
-    <file alias="Main.qml">C:/Users/jujur/Documents/dashbee/Main.qml</file>
-    <file alias="Constants.js">C:/Users/jujur/Documents/dashbee/Constants.js</file>
-  </qresource>
-</RCC>
-
