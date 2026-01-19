@@ -1,7 +1,8 @@
 import "Constants.js" as Consts
-import QtQuick
+import QtQuick 2.15
 import QtQuick.Layouts
 import QtQuick.Controls
+import QtQuick.Shapes
 
 Window {
     width: 550
@@ -41,7 +42,7 @@ Window {
                 Layout.alignment: Qt.AlignHCenter
             }
 
-            implicitWidth: Window.width*0.015
+            implicitWidth: Window.width*0.04
             implicitHeight: Window.height*0.45
             objectName: "fuelBar"
             id: fuelBar
@@ -73,7 +74,7 @@ Window {
         Item {
             objectName: "speedometer"
             id: speedometer
-            property real speed: 0
+            property real value: 0
             property real offset: 10 // for some reason the items dont align super well so i needed an offset
             Rectangle {
                 width: Window.width * 0.3
@@ -90,16 +91,34 @@ Window {
                 y: -parent.offset
                 color: Consts.graphColor
                 font.pixelSize: 25
-                text: parent.speed + " km/h"
+                text: parent.value + " km/h"
+            }
+        }
+        Item {
+            objectName: "tachometer"
+            id: tachometer
+            property real value: 150
+            property real redline: 3600
+            property real offset: 10 // for some reason the items dont align super well so i needed an offset
+
+            Rectangle {
+                width: Window.width * 0.3
+                height: Window.height * 0.5
+                y: -height/2 + tachometerLabel.height/2 - parent.offset
+                x: speedometer.x
+                color: Consts.mainBg
+                border.width: 1
+                border.color: "black"
             }
 
-        }
-
-        Item {
-            id: minimap
-            objectName: "minimap"
-            // we will use a qpainter for the map, translate gps coordinates in the map's file to pixel coordinates on the qpainter
-            // then, we will draw a cirlce of the current gps position coordinates on the map
+            Label {
+                id: tachometerLabel
+                y: -parent.offset
+                x: speedometer.x + width/3
+                color: parent.value < parent.redline ? Consts.graphColor : Consts.redline
+                font.pixelSize: 25
+                text: parent.value + " RPM"
+            }
         }
     }
 

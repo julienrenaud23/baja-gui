@@ -3,7 +3,6 @@ cmake_minimum_required(VERSION 3.16)
 project(dashbee VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-// dont forget to set CMAKE_PREFIX_PATH env
 SET(CMAKE_PREFIX_PATH $ENV{CMAKE_PREFIX_PATH})
 
 find_package(Qt6 REQUIRED COMPONENTS Quick)
